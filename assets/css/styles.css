@@ -1,0 +1,64 @@
+.f4 img {
+	height: 4vh;
+	width: auto;
+	margin-right: 10%;
+}
+
+.t-hero .p-5 img {
+	height: 10vh;
+	width: auto;
+}
+
+.t-brands-support,
+.t-features,
+.t-footer,
+.t-hero {
+	width: 100%;
+}
+
+.t-brands-support {
+	text-align: center;
+}
+
+.t-features .feature {
+	margin: 0 2.5%;
+	text-align: center;
+}
+
+.t-footer img {
+	height: 6vh;
+	width: auto;
+}
+
+.t-footer ul {
+	list-style: none;
+}
+
+.t-footer .company {
+	margin-left: 25%;
+	margin-right: auto;
+}
+
+.t-footer .links {
+	margin-left: auto;
+	margin-right: 25%;
+}
+
+@media only screen and (min-width: 1000px) {
+	.t-hero,
+	.t-footer,
+	.t-footer .company {
+		flex-direction: row !important;
+		align-items: flex-end !important;
+	}
+
+	.t-footer .links {
+		flex-direction: row !important;
+		align-items: center !important;
+	}
+
+	.t-features {
+		flex-direction: row !important;
+		padding: 0 15%;
+	}
+}

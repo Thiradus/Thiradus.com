@@ -32,7 +32,9 @@
 	<body>
 		<div class="Header">
 			<div class="Header-item">
-				<a href="/" class="Header-link f4 d-flex flex-items-center"><span>Thiradus</span></a>
+
+				<a href="/" class="Header-link f4 d-flex flex-items-center">
+					<img src="/assets/img/logo.svg" /><span>Thiradus</span></a>
 			</div>
 
 			<div class="Header-item">
