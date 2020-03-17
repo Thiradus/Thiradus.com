@@ -23,17 +23,10 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin&display=swap" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
-		<!-- UIkit CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
+		<!-- Primer CSS -->
+		<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="/assets/css/styles.css" />
-		<!-- Particles.js -->
-		<script src="/assets/js/particles.min.js"></script>
-		<!-- Initialize Particles.js -->
-		<script src="/assets/js/init.particles.js"></script>
-		<!-- UIkit JS -->
-		<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
 	</head>
 
 	<body>
