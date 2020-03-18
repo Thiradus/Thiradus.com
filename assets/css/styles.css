@@ -1,3 +1,23 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #E2E3E5;
+}
+
+.feature img {
+	height: 15vh;
+	width: auto;
+}
+
+.btn:hover {
+	color: #02818F !important;
+	background-color: #E2E3E5 !important;
+}
+
+.btn-outline:hover {
+	border-color: transparent !important;
+}
+
 .f4 img {
 	height: 4vh;
 	width: auto;
@@ -5,8 +25,25 @@
 }
 
 .t-hero .p-5 img {
-	height: 10vh;
+	height: 25vh;
 	width: auto;
+}
+
+.t-features {
+	background-color: #2C333D;
+	padding: 5vh 15%;
+}
+
+.t-features h1 {
+	padding: 2.5vh 0;
+}
+
+.btn {
+	background-color: transparent !important;
+	border-color: #E2E3E5;
+	border-radius: 0;
+	color: #E2E3E5;
+	transition: all 0.25s ease-in-out;
 }
 
 .t-brands-support,
@@ -16,13 +53,13 @@
 	width: 100%;
 }
 
-.t-brands-support {
-	text-align: center;
-}
-
 .t-features .feature {
 	margin: 0 2.5%;
 	text-align: center;
+}
+
+.t-footer {
+	background-color: #2C333D;
 }
 
 .t-footer img {
@@ -44,6 +81,36 @@
 	margin-right: 25%;
 }
 
+.Header {
+	background-color: #2C333D;
+}
+
+a {
+	color: #E2E3E5;
+	text-decoration: none;
+}
+
+.t-hero {
+	background-color: #3D4755;
+	padding: 10vh 0;
+}
+
+.t-brands-support {
+	background-color: #3D4755;
+	text-align: center;
+	padding: 5vh 40%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+
+.t-brands-support .btn {
+	padding: 1vh 2.5vw;
+}
+
 @media only screen and (min-width: 1000px) {
 	.t-hero,
 	.t-footer,
@@ -59,6 +126,5 @@
 
 	.t-features {
 		flex-direction: row !important;
-		padding: 0 15%;
 	}
 }

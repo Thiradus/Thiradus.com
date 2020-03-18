@@ -27,37 +27,40 @@
 		<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="/assets/css/styles.css" />
+
 	</head>
 
 	<body>
 		<div class="Header">
 			<div class="Header-item">
-
 				<a href="/" class="Header-link f4 d-flex flex-items-center">
-					<img src="/assets/img/logo.svg" /><span>Thiradus</span></a>
+					<img src="/assets/img/logo.svg" />
+					<span>Thiradus</span>
+				</a>
 			</div>
 
 			<div class="Header-item">
 				<a href="/">Home</a>
 			</div>
-
 			<div class="Header-item">
 				<a href="/about">About</a>
 			</div>
-
 			<div class="Header-item">
 				<a href="/brands">Brands</a>
 			</div>
-
 			<div class="Header-item">
 				<a href="/support">Support</a>
 			</div>
-
 			<div class="Header-item Header-item--full">
 				<a href="/team">Team</a>
 			</div>
+
 			<div class="Header-item">
-				<a href="/login"><button class="btn btn-sm btn-outline" type="button">Login</button></a>
-				<a href="/register"><button class="btn btn-sm btn-outline" type="button">Register</button></a>
+				<a href="/login">
+					<button class="btn btn-sm btn-outline" type="button">Login</button>
+				</a>
+				<a href="/register">
+					<button class="btn btn-sm btn-outline" type="button">Register</button>
+				</a>
 			</div>
 		</div>
