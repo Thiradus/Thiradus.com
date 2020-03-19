@@ -60,6 +60,8 @@ body {
 
 .t-footer {
 	background-color: #2C333D;
+	padding: 4vh 15%;
+	justify-content: space-around !important;
 }
 
 .t-footer img {
@@ -69,16 +71,14 @@ body {
 
 .t-footer ul {
 	list-style: none;
+	margin: 0 2vw;
 }
 
-.t-footer .company {
-	margin-left: 25%;
-	margin-right: auto;
+.t-footer .company p {
+	margin: 0 1vw;
 }
 
 .t-footer .links {
-	margin-left: auto;
-	margin-right: 25%;
 }
 
 .Header {

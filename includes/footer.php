@@ -3,7 +3,7 @@
 		<img src="/assets/img/Logo.svg" />
 		<p> &copy; 2015-2020 Thiradus. All Rights Reserved. </p>
 	</div>
-	<div class="links d-flex flex-column flex-content-center flex-items-center flex-justify-center">
+	<div class="links d-flex flex-column flex-content-center flex-items-center">
 		<ul>
 			<li>
 				<p><b>Social</b></p>
